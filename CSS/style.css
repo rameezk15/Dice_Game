@@ -11,17 +11,20 @@ body {
   text-align: center;
 }
 
-.clr {
-  clear: both;
-}
-
 img {
   width: 150px;
 }
 
 /* Heading */
 .heading {
+  margin-top: 50px;
   font-family: "Pattaya", sans-serif;
+}
+
+/* Player aligment */
+.player {
+  display: inline-block;
+  margin: 30px;
 }
 
 /* Button */
@@ -31,7 +34,7 @@ img {
   border: #1b1717 1px;
   padding: 10px 20px;
   font-weight: bolder;
-  margin-top: 20px;
+  margin-top: 30px;
   border-radius: 2rem;
 }
 
