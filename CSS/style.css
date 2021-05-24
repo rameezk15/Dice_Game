@@ -1,0 +1,43 @@
+body {
+  background-color: #dbf6e9;
+  color: #31326f;
+  margin: 0;
+  padding: 0;
+}
+
+/* Global */
+.container {
+  width: 80%;
+  text-align: center;
+}
+
+.clr {
+  clear: both;
+}
+
+img {
+  width: 150px;
+}
+
+/* Heading */
+.heading {
+  font-family: "Pattaya", sans-serif;
+}
+
+/* Button */
+.btn {
+  color: #31326f;
+  background-color: #ffc93c;
+  border: #1b1717 1px;
+  padding: 10px 20px;
+  font-weight: bolder;
+  margin-top: 20px;
+  border-radius: 2rem;
+}
+
+/* Footer */
+footer {
+  margin: 50px 0 0;
+  padding: 50px 0 50px;
+  background-color: #9ddfd3;
+}
