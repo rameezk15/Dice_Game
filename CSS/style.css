@@ -1,13 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
 body {
   background-color: #dbf6e9;
   color: #31326f;
-  margin: 0;
-  padding: 0;
+  position: relative;
+  padding-bottom: 68px;
+  padding-top: 50px;
+  min-height: 100vh;
 }
 
 /* Global */
 .container {
-  width: 80%;
   text-align: center;
 }
 
@@ -36,11 +47,15 @@ img {
   font-weight: bolder;
   margin-top: 30px;
   border-radius: 2rem;
+  margin-bottom: 50px;
 }
 
 /* Footer */
 footer {
-  margin: 50px 0 0;
-  padding: 50px 0 50px;
+  margin: auto;
+  padding: 30px 0 20px;
   background-color: #9ddfd3;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
